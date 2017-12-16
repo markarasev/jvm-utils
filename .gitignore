@@ -1,2 +1,11 @@
+# Build files
+target
 *.class
+
+# Log files
 *.log
+
+# IDE related files
+## IntelliJ
+.idea
+jvm-utils.iml
