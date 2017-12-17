@@ -10,12 +10,12 @@ case class UtcDateTime private (u: ZonedDateTime) extends AnyVal
 object UtcDateTime {
 
   /**
-    * Constructs a UtcDateTime instance from current datetime.
+    * Constructs a [[UtcDateTime]] instance from current datetime.
     */
   def now(): UtcDateTime = apply()
 
   /**
-    * Constructs a UtcDateTime instance from a given ZonedDateTime instance.
+    * Constructs a [[UtcDateTime]] instance from a given ZonedDateTime instance.
     */
   def from(date: ZonedDateTime): UtcDateTime = apply(date)
 
